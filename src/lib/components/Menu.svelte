@@ -2,8 +2,8 @@
 	import cardapio from '$lib/mock/cardapio.json';
 	import { goto } from '$app/navigation';
 
-	let option = '';
 	let carrinho = [];
+	let option = '';
 
 	function getItems(option) {
 		switch (option) {
@@ -22,10 +22,10 @@
 	function addCart(item) {
 		carrinho = [...carrinho, item];
 		console.log(carrinho);
+		localStorage.setItem('itemsLista', JSON.stringify(carrinho));
 		return JSON.stringify(carrinho);
 	}
 	function saveCheckout() {
-		localStorage.setItem('itemsLista', addCart());
 		goto('/checkout');
 	}
 	function getInfoPage(item) {
