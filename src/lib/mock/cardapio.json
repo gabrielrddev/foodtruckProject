@@ -1,0 +1,22 @@
+{
+	"lanches": [
+		{ "id": 1, "name": "X-Burger", "price": 18.9 },
+		{ "id": 2, "name": "X-Salada", "price": 20.9 },
+		{ "id": 3, "name": "Hot Dog", "price": 15.9 }
+	],
+	"bebidas": [
+		{ "id": 4, "name": "Coca-Cola", "price": 6.9 },
+		{ "id": 5, "name": "Guaraná", "price": 6.9 },
+		{ "id": 6, "name": "Suco Natural", "price": 8.9 }
+	],
+	"entradas": [
+		{ "id": 7, "name": "Batata Frita", "price": 14.9 },
+		{ "id": 8, "name": "Onion Rings", "price": 16.9 },
+		{ "id": 9, "name": "Nachos", "price": 19.9 }
+	],
+	"sobremesa": [
+		{ "id": 10, "name": "Pudim", "price": 10.9 },
+		{ "id": 11, "name": "Sorvete", "price": 12.9 },
+		{ "id": 12, "name": "Brownie", "price": 13.9 }
+	]
+}
